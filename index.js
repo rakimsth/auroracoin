@@ -39,6 +39,7 @@ class Blockchain {
  constructor() {
    this.chain = [this.createGenesisBlock()];
    this.pendingTransaction = [];
+   //set the level of the mining difficulty
    this.difficulty = 4;
    this.miningReward = 100;
  }
